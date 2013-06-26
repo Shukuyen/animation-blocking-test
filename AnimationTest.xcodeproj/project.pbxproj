@@ -19,6 +19,7 @@
 		31E45939177B2E0F007175CE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E45937177B2E0F007175CE /* MainStoryboard.storyboard */; };
 		31E4593C177B2E0F007175CE /* ANTMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E4593B177B2E0F007175CE /* ANTMasterViewController.m */; };
 		31E4593F177B2E0F007175CE /* ANTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E4593E177B2E0F007175CE /* ANTDetailViewController.m */; };
+		31E45947177B2FCD007175CE /* ANTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E45946177B2FCD007175CE /* ANTTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		31E4593B177B2E0F007175CE /* ANTMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANTMasterViewController.m; sourceTree = "<group>"; };
 		31E4593D177B2E0F007175CE /* ANTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANTDetailViewController.h; sourceTree = "<group>"; };
 		31E4593E177B2E0F007175CE /* ANTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANTDetailViewController.m; sourceTree = "<group>"; };
+		31E45945177B2FCD007175CE /* ANTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANTTableViewCell.h; sourceTree = "<group>"; };
+		31E45946177B2FCD007175CE /* ANTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANTTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				31E4593B177B2E0F007175CE /* ANTMasterViewController.m */,
 				31E4593D177B2E0F007175CE /* ANTDetailViewController.h */,
 				31E4593E177B2E0F007175CE /* ANTDetailViewController.m */,
+				31E45945177B2FCD007175CE /* ANTTableViewCell.h */,
+				31E45946177B2FCD007175CE /* ANTTableViewCell.m */,
 				31E45926177B2E0F007175CE /* Supporting Files */,
 			);
 			path = AnimationTest;
@@ -183,6 +188,7 @@
 				31E45930177B2E0F007175CE /* ANTAppDelegate.m in Sources */,
 				31E4593C177B2E0F007175CE /* ANTMasterViewController.m in Sources */,
 				31E4593F177B2E0F007175CE /* ANTDetailViewController.m in Sources */,
+				31E45947177B2FCD007175CE /* ANTTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

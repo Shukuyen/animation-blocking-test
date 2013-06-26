@@ -1,5 +1,5 @@
 //
-//  ANTMasterViewController.h
+//  ANTTableViewCell.h
 //  AnimationTest
 //
 //  Created by Cornelius Schiffer on 26.06.13.
@@ -8,5 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ANTMasterViewController : UITableViewController
+@interface ANTTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIImageView *imageView;
 @end
